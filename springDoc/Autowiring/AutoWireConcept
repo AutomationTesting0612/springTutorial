@@ -1,0 +1,7 @@
+Autowiring in Spring
+
+
+⦁ Feature of Spring Framework in which spring container inject the dependencies automatically.
+⦁ In past scenarios, we manually inject the dependencies in the xml file
+⦁ Autowiring can’t be used to inject the primitive and String values. It works with reference only.
+⦁ It is important that Class is dependent on other class

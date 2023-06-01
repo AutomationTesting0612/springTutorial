@@ -1,0 +1,17 @@
+1. As of now, we are creating bean in config.xml file, which tell the spring container that he has to
+create the bean of that class.
+2. Now We will not add the <bean> tag in the config.xml file.
+3. We will use the @Component tag in top of class like below example
+
+@Component
+class Person {
+
+
+}
+
+4. When we will apply the @Component annotation, then the spring container will automatically get to know
+that he has to create the bean of that class
+5. But we have to add the below line in config.xml
+<context:component-scan base-package=""/>
+
+6. We will add the package in the double quotes

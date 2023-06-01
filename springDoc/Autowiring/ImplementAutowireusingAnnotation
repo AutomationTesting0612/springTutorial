@@ -1,0 +1,10 @@
+We need following properties in the config.xml file
+
+1. We need xmlns:context="http://www.springframework.org/schema/context"
+    http://www.springframework.org/schema/context
+               http://www.springframework.org/schema/context/spring-context.xsd">
+
+2. We need to add the tag as <context:annotation-config />
+3. Add the @Autowire annotation in the top of Properties, constructor or method
+4. remove the attribute autowire from config.xml
+5. When the application runs, it check the @Autowired class and use the ByType autowire and put the object of dependent class.

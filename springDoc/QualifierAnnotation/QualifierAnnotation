@@ -1,0 +1,6 @@
+1. When we have two bean of same name of Address class in config.xml, then spring
+throws the exception as "No qualifying bean of type 'org.spring.annotation.autowire.AddressClass' available:
+expected single matching bean but found 2: address2,address1"
+
+2. We can fix tis issue by adding @Qualifier annotation with @Autowired annotation
+3. The Syntax is @Qualifier("address1")
