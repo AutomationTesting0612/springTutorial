@@ -1,0 +1,11 @@
+1. We can use the value annotation with collections like List, Map, Set, properties
+2. We have to use the add the below tag in the config.xml file
+
+  <util:list list-class="java.util.Arraylist" id="temp">
+    <value>Himachal</value>
+    <value>Punjab</value>
+    <value>Jammu</value>
+    </util:list>
+
+3. After that, we have to add the #{temp} with below annotation
+  @value("#{temp}")

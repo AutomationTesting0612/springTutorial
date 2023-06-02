@@ -15,3 +15,6 @@ that he has to create the bean of that class
 <context:component-scan base-package=""/>
 
 6. We will add the package in the double quotes
+
+
+@Value is used to assign the value in the field
