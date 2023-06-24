@@ -1,0 +1,36 @@
+1. Spring JDBC is a powerful mechanism to connect the database and execute the SQL queries.
+
+JDBC concept
+
+JDBC is API which is used to perform the operation with database
+operation are insert, update, truncate, delete
+
+Java Program<----------> JDBC <---------------> DataBase
+
+Java Program has to insert the data to database. JDBC will help to insert the data in database of Java program
+
+
+Why we will use the spring JDBC?
+
+Problem of JDBC
+
+a) We need to write a lot of code
+  Connection open
+  statement
+  execute
+  connection close
+b) Exception handling problem: checked Exception
+SQLException
+We need to write a lot of try catch block if we use the JDBC API
+
+c) Repeating of all these codes from ont to another database logic is a time consuming task.
+
+
+Spring JDBC
+
+a) Solutions of JDBC problems are provided by Spring JDBC
+
+b) Spring JDBC provides class JDBCTemplate which has all the important methods to perform operation with database.
+
+c) need to add the dependency as spring jdbc and mySql connector j
+
