@@ -1,8 +1,8 @@
 package org.spring.autowire.xml;
 
-import org.spring.autowire.xml.Address;
-
 public class Emp {
+
+    private Address address;
 
     public Emp() {
         super();
@@ -27,6 +27,6 @@ public class Emp {
         this.address = address;
     }
 
-    private Address address;
+
 
 }

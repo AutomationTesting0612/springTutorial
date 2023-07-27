@@ -1,6 +1,5 @@
 package org.spring.annotation.autowire;
 
-import org.spring.autowire.xml.Address;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 
