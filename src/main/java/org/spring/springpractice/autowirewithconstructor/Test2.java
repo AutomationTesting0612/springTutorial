@@ -14,4 +14,9 @@ public class Test2 {
                 "name='" + name + '\'' +
                 '}';
     }
+
+
+    //If dependent Test2 class have only one constructor, then we don't need to write the autowired in Test1 for user defined datatype as Test2
+
+
 }

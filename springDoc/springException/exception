@@ -1,0 +1,5 @@
+1. NoUniqueBeanDefinitionException:
+
+Because we have created multiple beans of dependent class, IOC container is unable to find like which bean we have to take
+
+2. NoSuchBeanDefinitionException
